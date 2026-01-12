@@ -5,5 +5,11 @@ print(resultado)
 
 # Buscar la posición de un carácter o subcadena: se usa .index("texto")
 mi_texto = "Esta es una prueba"
-resultado = mi_texto.index("n")   # Devuelve la posición donde aparece la letra "n"
+resultado = mi_texto.index("n")   # Devuelve la posición donde aparece la letra "n" (primera vez)
 print(resultado)
+
+# Buscar la última posición de un carácter o subcadena: se usa .rindex("texto")
+mi_texto = "Esta es una prueba"
+resultado = mi_texto.rindex("a")   # Devuelve la posición de la última vez que aparece "a"
+print(resultado)
+
