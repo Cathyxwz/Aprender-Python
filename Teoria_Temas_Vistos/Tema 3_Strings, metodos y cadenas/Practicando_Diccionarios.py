@@ -27,4 +27,3 @@ diccionario2 = {'c1': 55, 'c2': [10, 20, 30], 'c3': {'s1': 100, 's2': 200}}
 print(diccionario2['c2'][1])      # Acceder al segundo elemento de la lista
 print(diccionario2['c3']['s2'])   # Acceder al valor de la clave 's2'
 
-
