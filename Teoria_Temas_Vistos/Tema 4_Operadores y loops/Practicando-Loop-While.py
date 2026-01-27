@@ -33,3 +33,10 @@ for letra in nombre2:
     if letra == "r":
         continue
     print(letra)
+
+#imprimer cierta cantidad de veces
+letra = input("Digite uma letra: ")
+numero = int(input("Digite um numero: "))
+while numero >= 0:
+    print(letra)
+    numero -=1
