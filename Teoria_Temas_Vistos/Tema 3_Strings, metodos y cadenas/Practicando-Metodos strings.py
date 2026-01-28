@@ -31,3 +31,10 @@ print(resultado)
 texto = "Este es el texto de Catherine"
 resultado = texto.replace("Catherine", "todos") # Reemplaza "Catherine" por "todos"
 print(resultado)
+
+#Empieza con:
+nombre = "Marcos"
+if nombre.startswith("M"):
+    print("El nombre empieza con M")
+else:
+    print("El nombre no empieza con M")
