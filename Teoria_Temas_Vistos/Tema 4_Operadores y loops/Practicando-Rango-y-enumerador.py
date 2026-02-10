@@ -20,3 +20,10 @@ lista2 = ['a','b','c']
 mis_tuples = list(enumerate(lista2))
 print(mis_tuples)   # [(0,'a'), (1,'b'), (2,'c')]
 
+#EJEMPLO ENUMERADOR CON LOOOP:
+lista_nombres = ["Marcos", "Laura", "Mónica", "Javier", "Celina", "Marta", "Darío", "Emiliano", "Melisa"]
+
+for indice, nombre in enumerate(lista_nombres):
+    if nombre.startswith("M"):
+        print(indice)
+
