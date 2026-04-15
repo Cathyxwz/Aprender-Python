@@ -23,6 +23,18 @@ def suma_menores(lista):
     return suma
 
 lista_numeros = [3, 5, 15, 182, -4, 1200]
+resultado2 = suma_menores(lista_numeros)
+print(resultado2)
 
 
+#Contar numeros de pares en una lista
+def cantidad_pares(lista):
+    contador = 0
+    for n in lista:
+        if n % 2 == 0:
+            contador += 1
+    return contador
 
+lista_numeros = [2, 9, 6, 72, 12]
+resultado3 = cantidad_pares(lista_numeros)
+print(resultado3)
