@@ -14,3 +14,15 @@ def chequear_3_cifras(lista):
 resultado = chequear_3_cifras(mi_lista)
 print(resultado)   # [999]
 
+#Funcion que suma valores de una lista
+def suma_menores(lista):
+    suma = 0
+    for n in lista:
+        if 0 < n < 1000:
+            suma += n
+    return suma
+
+lista_numeros = [3, 5, 15, 182, -4, 1200]
+
+
+
