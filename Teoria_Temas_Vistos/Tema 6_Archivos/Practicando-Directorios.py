@@ -24,7 +24,7 @@ print(directorio)
 mi_ruta = os.path.splitext(ruta)
 print(mi_ruta)
 
-# Eliminar carpeta creada
+# Eliminar carpeta creada del ordenador desde python
 os.rmdir("C:\\Users\\kathe\\Downloads\\Otra_ruta\\otra")
 
 # Uso de pathlib para rutas multiplataforma (Windows/Mac/Linux)
